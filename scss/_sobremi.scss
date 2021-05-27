@@ -1,0 +1,29 @@
+$mar: 10px;
+$pad: 10px;
+$width: 800px;
+$height: 800px;
+$ftp: 16px;
+$fts: italic;
+$up: uppercase;
+
+h4, h3 .sobremi{
+	margin: $mar;
+	padding: $pad;
+}
+
+.b2{
+	width: $width/2;
+	height: $height/2;
+	.d4{
+		width: $width/2;
+		height: $height/2;
+	}
+}
+
+.parrafoDestacado1{
+	font-size: $ftp;
+	font-style: $fts;
+	text-transform: $up;
+	text-align: center;
+}
+

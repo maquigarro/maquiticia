@@ -1,0 +1,15 @@
+/* bucle sobre bootstrap de index*/
+$ancho: 400px;
+
+@for $i from 1 though 3{
+	.micol-#{$i
+	width: ($ancho/3)*$1
+	}
+}
+
+@for $i from 1 though 3{
+	.micol-md-#{$i
+	width: ($ancho/3)*$1
+	}
+}
+
